@@ -1,4 +1,4 @@
-# PettingZooAnimals
+# Petting Zoo Animals
 The application simulates a petting zoo for visiting schools
 
 
