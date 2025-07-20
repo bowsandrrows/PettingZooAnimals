@@ -8,7 +8,7 @@ string[] pettingZoo =
 };
 foreach (var item in pettingZoo)
 {
-    System.Console.WriteLine(item + "is in the zoo");
+    System.Console.WriteLine(item + " - is in the zoo");
 }
 // a pseudo-code method to randomize the petting zoo animals
 // RandomizeAnimals();
