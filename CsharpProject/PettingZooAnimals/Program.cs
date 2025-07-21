@@ -9,7 +9,7 @@ string[] pettingZoo =
 // a pseudo-code method to randomize the petting zoo animals
 void RandomizeAnimals()
 {
-    Random random = new Random();
+    Random random = new();
 
     int i = 0;
     int r = random.Next(pettingZoo.Length);
