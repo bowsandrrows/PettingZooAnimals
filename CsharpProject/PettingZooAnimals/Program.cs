@@ -9,17 +9,16 @@ string[] pettingZoo =
 // a pseudo-code method to randomize the petting zoo animals
 void RandomizeAnimals()
 {
-    Random random = new();
+Random random = new ();
 
-    int i = 0;
+for (int i = 0; i < pettingZoo.Length; i++) 
+{
     int r = random.Next(pettingZoo.Length);
 
     string temp = pettingZoo[i];
     pettingZoo[i] = pettingZoo[r];
     pettingZoo[r] = temp;
-
-    System.Console.WriteLine(pettingZoo[i] + " " + pettingZoo[r]);
-    System.Console.WriteLine(temp);
+}
 
 }
 
